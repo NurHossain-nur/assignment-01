@@ -214,3 +214,31 @@ nav .signin-btn:hover{
     border: 1px solid #FFC239;
 }
 /* Vision section style end */
+
+/* Quote section style start */
+.quote-description{
+    background-color: #FFF;
+    margin-top: 32px;
+    padding: 48px 24px;
+    border-radius: 16px;
+    position: relative;
+}
+.quote-description img{
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 25px;
+}
+.quote-description:first-child{
+    color: rgba(14, 14, 14, 0.7);
+}
+.quote-description h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin: 12px 0px 4px;
+}
+.quote-description:last-child{
+    color: rgba(14, 14, 14, 0.6);
+}
+/* Quote section style end */
