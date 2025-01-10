@@ -19,18 +19,37 @@ section{
     max-width: 1280px;
     margin: 0px auto;
 }
+.item img{
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+.item h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
 
+}
+.item p, .section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 24px;
+}
 /* common style end */
 .btn{
     background-color: #006A50;
     color: #FFF;
     cursor: pointer;
+    font-weight: 600;
 }
 .section-title{
     font-size: 40px;
     font-weight: bold;
     color: #0E0E0E;
 }
+
 
 /* header section style start */
 /* navbar style */
@@ -118,20 +137,80 @@ nav .signin-btn:hover{
     padding: 24px;
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
-.pillers-item img{
-    width: 64px;
-    height: 64px;
-    margin-bottom: 24px;
-}
-.pillers-item h5{
-    font-size: 20px;
-    font-weight: bold;
-    color: rgba(14, 14, 14, 0.8);
-    margin-bottom: 12px;
-}
-.pillers-item p{
-    font-size: 16px;
-    font-weight: 400;
-    color: rgba(14, 14, 14, 0.7);
-}
+
 /* Pillars sections style end */
+
+/* Vision section style start */
+.vision-description{
+    margin: 24px 0px 32px;
+}
+.vision-items{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.vision-item{
+    padding: 32px;
+    border-radius: 16px;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: flex-start;
+    width: 410.67px;
+    height: 325px;
+    transition: border 1s ease-in-out;
+}
+.vision-item .btn{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: none;
+    /* position: absolute;
+    left: 32px;
+    bottom: 32px; */
+    transition: color 0.5s linear;
+}
+.vision-item-1{
+    background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-item-1:hover{
+    border: 2px solid #5490F5;
+}
+.vision-item-2{
+    background-color: #C6E4D6;
+}
+.vision-item-2:hover{
+    border: 2px solid #09A15C;
+}
+.vision-item-3{
+    background-color: #F7EBCF;
+}
+.vision-item-3:hover{
+    border: 2px solid #FFC239;
+}
+.vision-item .btn-1{
+    background-color: #5490F5;
+}
+.vision-item .btn-1:hover{
+    background-color: #fff;
+    color: #5490F5;
+    border: 1px solid #5490F5;
+}
+.vision-item .btn-2{
+    background-color: #09A15C;
+}
+.vision-item .btn-2:hover{
+    background-color: #FFF;
+    color: #09A15C;
+    border: 1px solid #09A15C;
+}
+.vision-item .btn-3{
+    background-color: #FFC239;
+}
+.vision-item .btn-3:hover{
+    background-color: #FFF;
+    color: #FFC239;
+    border: 1px solid #FFC239;
+}
+/* Vision section style end */
