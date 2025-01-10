@@ -41,6 +41,11 @@ nav .signin-btn{
     color: #006A50;
     border: 2px solid #006A50;
     border-radius: 8px;
+    transition: color 0.5s linear;
+}
+nav .signin-btn:hover{
+    background-color: #006A50;
+    color: #FFF;
 }
 
 
