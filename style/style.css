@@ -17,7 +17,10 @@ section{
 }
 
 /* common style end */
-
+.btn{
+    background-color: #006A50;
+    color: #FFF;
+}
 
 /* header section style start */
 /* navbar style */
@@ -47,6 +50,45 @@ nav .signin-btn:hover{
     background-color: #006A50;
     color: #FFF;
 }
+/* nav style end */
 
+/* hero style start */
+.hero-section{
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+    border-radius: 24px;
+    margin-top: 20px;
+    padding: 80px 60px;
+}
+/* .hero-section div{
+    margin: 80px 60px;
+} */
+.hero-subtitle{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+}
+.hero-title{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.hero-section .hero-btn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 24px;
+    border-radius: 8px;
+    border: none;
+    transition: color 0.5s linear;
+}
+.hero-section .hero-btn:hover{
+    background-color: #fff;
+    color: #006A50;
+}
 
 /* header section style end */
