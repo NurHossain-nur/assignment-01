@@ -309,3 +309,64 @@ table tr td button label select{
     border: none;
 }
 /* your opinion section end */
+
+/* Recent news section style start */
+.news-section-title{
+    margin-bottom: 24px;
+}
+.news-section-description{
+    margin-bottom: 32px;
+}
+.news-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+    background-color: #FFF;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+    transition: border 0.5s linear;
+}
+.news-item:hover{
+    border: 1px solid rgba(14, 14, 14,0.15);
+}
+.news-img img{
+    border-radius: 24px;
+}
+.news-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+.channel-logo{
+    width: 134px;
+    height: 40px;
+    margin-bottom: 12px;
+}
+.news-date-time{
+    margin-bottom: 12px;
+    display: flex;
+    gap: 12px;
+}
+.news-description{
+    margin-bottom: 32px;
+}
+.news-btn{
+    padding: 13px 26px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    transition: color 0.5s linear;
+}
+.news-btn:hover{
+    color: #006A50;
+    background-color: #FFF;
+    border: 1.5px solid #006A50;
+}
+.news-item-2{
+    flex-direction: row-reverse;
+}
+/* Recent news section style end */
