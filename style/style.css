@@ -404,9 +404,14 @@ table tr td button label select{
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
     transition: background-color 0.3s linear;
+    transition: scale 0.3s linear;
+}
+.select-amount{
+    background-color: #C6E4D6;
 }
 .amount:hover{
     background-color: #C6E4D6;
+    scale: 1.03;
 }
 .input-holter{
     width: 100%;
