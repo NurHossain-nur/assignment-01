@@ -165,7 +165,9 @@ nav .signin-btn:hover{
     align-items: flex-start;
     width: 410.67px;
     height: 325px;
-    transition: border 1s ease-in-out;
+    transition: border 0.3s ease-in-out;
+
+    /* border: 1px solid #F1F1F3; */
 }
 .vision-item .btn{
     padding: 11px 20px;
@@ -178,18 +180,22 @@ nav .signin-btn:hover{
 }
 .vision-item-1{
     background-color: rgba(84, 144, 245, 0.2);
+    border: 2px solid rgba(84, 144, 245, 0.2);
 }
 .vision-item-1:hover{
     border: 2px solid #5490F5;
 }
 .vision-item-2{
     background-color: #C6E4D6;
+    border: 2px solid #C6E4D6;
 }
 .vision-item-2:hover{
     border: 2px solid #09A15C;
 }
 .vision-item-3{
     background-color: #F7EBCF;
+    border: 2px solid #F7EBCF;
+
 }
 .vision-item-3:hover{
     border: 2px solid #FFC239;
@@ -331,10 +337,11 @@ table tr td button label select{
     border-radius: 24px;
     padding: 48px;
     margin-bottom: 24px;
-    transition: border 0.5s linear;
+    border: 2px solid #FFF;
+    transition: border 0.3s linear;
 }
 .news-item:hover{
-    border: 1px solid rgba(14, 14, 14,0.15);
+    border: 2px solid rgba(14, 14, 14,0.15);
 }
 .news-img img{
     border-radius: 24px;
@@ -362,7 +369,7 @@ table tr td button label select{
     padding: 13px 26px;
     font-size: 18px;
     font-weight: 600;
-    border: none;
+    border: 1.5px solid #FFF;
     border-radius: 8px;
     transition: color 0.5s linear;
 }
@@ -428,10 +435,10 @@ table tr td button label select{
     font-weight: 400;
     color: rgba(14, 14, 14, 0.3);
     border: 1px solid rgba(14, 14, 14, 0.15);
-    transition: border 0.5s linear;
+    transition: border 0.3s linear;
 }
 .input-holter input:hover{
-    border: 2px solid rgba(14, 14, 14, 0.3);
+    border: 1px solid rgba(14, 14, 14, 0.3);
 }
 .donate-btn{
     margin-top: 32px;
@@ -439,7 +446,7 @@ table tr td button label select{
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
-    border: none;
+    border: 1px solid #006A50;
     transition: background-color 0.5s linear;
     transition: color 0.5s linear;
 }
@@ -473,6 +480,8 @@ table tr td button label select{
     /* margin: auto; */
     /* background-color: #FFC239; */
     border-radius: 8px;
+    margin-bottom: 24px;
+    border: 1.5px solid #C6E4D6;
     /* transition: border 1s linear; */
 }
 .newsletter-sub-fild:hover{
@@ -493,7 +502,7 @@ table tr td button label select{
     padding: 17px 34px;
     font-size: 18px;
     font-weight: 600;
-    border: none;
+    border: 1px solid #C6E4D6;
     border-radius: 0px 8px 8px 0px;
     transition: color 0.5s linear;
     transition: background-color 0.5s linear;
@@ -505,7 +514,7 @@ table tr td button label select{
     border-left: 3px solid #09A15C;
 }
 .newslatter-container> :last-child{
-    margin-top: 24px;
+    /* margin-top: 24px; */
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
