@@ -242,3 +242,70 @@ nav .signin-btn:hover{
     color: rgba(14, 14, 14, 0.6);
 }
 /* Quote section style end */
+
+/* your opinion section start */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    border: 1px solid rgba(14, 14, 14,0.15);
+}
+.opinion-table{
+    background-color: #FFF;
+    margin-top: 24px;
+    padding: 32px;
+    border-radius: 16px;
+}
+table tr th{
+    /* display: flex;
+    justify-content: space-between; */
+    /* display: block; */
+    padding: 24px;
+}
+table .btn-container{
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: rgba(14, 14, 14,0.15);
+    /* padding: 24px 0px 24px 24px; */
+}
+table .btn-container .btn{
+    /* width: 100%; */
+    margin: 24px -8px;
+    border: 2px solid #0E0E0E;
+    border-radius: 4px;
+    padding: 12px 16.5px;
+    background-color: #C6E4D6;
+}
+table tr th p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+table tr th .para-1{
+    float: left;
+}
+table tr th .para-2{
+    float: right;
+}
+table tr td p{
+    margin: 36.5px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #0E0E0E;
+}
+table tr td button label{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+}
+table tr td button label select{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0E0E0E;
+    background-color: #C6E4D6;
+    border: none;
+}
+/* your opinion section end */
